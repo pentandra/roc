@@ -1,0 +1,13 @@
+name: Open Research Core
+description: A lightweight open-source framework for the development of domain-specific collaborative research systems.
+url: http://openresearchcore.org
+author: Chris Chapman
+author_email: chris@pentandra.com
+sponsor:
+  name: Pentandra
+  url: http://pentandra.com
+markdown: rdiscount
+rdiscount:
+  extensions: [ smart ]
+auto: true
+trackingId: UA-39675649-1
