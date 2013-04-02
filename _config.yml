@@ -1,10 +1,11 @@
 name: Open Research Core
+nickname: roc
 description: A lightweight open-source framework for the development of domain-specific collaborative research systems.
 url: http://openresearchcore.org
 author: Chris Chapman
 author_email: chris@pentandra.com
 sponsor:
-  name: Pentandra
+  name: Pentandra Research Solutions, Inc.
   url: http://pentandra.com
 markdown: rdiscount
 rdiscount:
