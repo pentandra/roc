@@ -7,8 +7,8 @@ author_email: chris@pentandra.com
 sponsor:
   name: Pentandra Research Solutions, Inc.
   url: http://pentandra.com
-markdown: rdiscount
-rdiscount:
-  extensions: [ smart ]
-auto: true
+permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+kramdown:
+  use_coderay: true
 trackingId: UA-39675649-1
