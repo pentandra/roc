@@ -1,6 +1,13 @@
-*.class
-
 # Package Files #
 *.jar
 *.war
 *.ear
+
+target/
+*.class
+
+# IDEA files
+.idea*
+*.iml
+
+*.log
