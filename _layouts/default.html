@@ -1,10 +1,16 @@
 {% include header.html %}
         <div class="header-container">
             <header class="wrapper clearfix">
-              <h1 class="title ir"><a href="{{ site.baseurl }}">{{ site.nickname }}</a></h1>
+                <div class="title clearfix">
+                    <h1><a class="logo ir" href="{{ site.baseurl }}">{{ site.nickname }}</a></h1>
+                    <p class="summary">
+                      A lightweight open-source framework for the development of
+                      domain-specific collaborative research systems
+                    </p>
+                </div>
                 <nav>
                     <ul>
-                        <li><a href="{{ site.baseurl }}cases/">Cases</a></li>
+                        <li><a href="{{ site.baseurl }}guides/">Guides</a></li>
                         <li><a href="#">Docs</a></li>
                         <li><a href="#">Community</a></li>
                     </ul>
