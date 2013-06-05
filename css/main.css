@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   min-width: 305px;
-  height: 319px;
+  height: 338px; /* 26px * 13 */
   background: transparent url('/img/roc_logo.png') no-repeat center center;
   display: block;
 }
@@ -306,24 +306,6 @@ nav a:hover {
    ============ */
 
   .title {
-    padding: 26px 143px;
-  }
-
-  .title h1 {
-    float: left;
-  }
-
-  .summary {
-    float: left;
-    font-size: 1.5em;
-    margin: 0.67em 0;
-    width: 400px;
-    margin-left: 1.4em;
-    margin-top: 120px;
-  }
-
-  .partial-wrapper {
-    margin: 0 auto;
   }
 
   nav {
