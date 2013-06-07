@@ -1,1 +1,7 @@
-_site
+site
+
+# Vim temporary files
+*.swp
+
+.idea*
+target/
