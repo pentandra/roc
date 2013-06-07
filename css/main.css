@@ -15,6 +15,12 @@ body {
   line-height: 1.4;
 }
 
+menu,
+ol,
+ul {
+    padding: 0;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -175,26 +181,26 @@ h1, h2, h3, h4, h5, h6 {
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
 
-    color: white;
-    background: #000;
+  color: white;
+  background: #000;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+  color: white;
 }
 
 nav a:hover {
@@ -206,19 +212,15 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
-}
-
-.main article h1 {
-    font-size: 2em;
+  padding: 30px 0;
 }
 
 .main aside {
-    padding: 0px 5% 10px;
+  padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 /* ===============
@@ -226,7 +228,7 @@ nav a:hover {
    =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -260,33 +262,33 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
+  nav li:first-child a {
+    margin-left: 0;
+  }
 
-    nav li:last-child a {
-        margin-right: 0;
-    }
+  nav li:last-child a {
+    margin-right: 0;
+  }
 
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    nav ul li {
-        display: inline;
-    }
+  nav ul li {
+    display: inline;
+  }
 
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -295,11 +297,11 @@ nav a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+       -moz-box-shadow: 0 5px 10px #aaa;
+            box-shadow: 0 5px 10px #aaa;
+  }
 
 /* ============
     WIDE: Menu
