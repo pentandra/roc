@@ -149,13 +149,20 @@ h1, h2, h3, h4, h5, h6 {
     ALL: Black and White Theme
    ============================ */
 
-.header-container {
-/*  border-bottom: 20px solid #000; */
+.header-container .nav-wrapper {
+  min-height: 76px;
+}
+
+.nav-background {
+  background-color: white;
 }
 
 .footer-container,
 .main aside {
   border-top: 26px solid #000;
+}
+
+.main aside {
 }
 
 .header-container,
@@ -164,16 +171,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-.title {
-  font-family: 'Muli Light';
-  font-style: italic;
-}
-
 .logo {
-  min-width: 305px;
-  height: 338px; /* 26px * 13 */
+  height: 319px;
+  margin: 48.5px 0; /* (26px * 16) - 319px */
   background: transparent url('/img/roc_logo.png') no-repeat center center;
   display: block;
+  background-size: contain;
 }
 
 /* ==============
@@ -204,7 +207,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  background: #555;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* ==============
@@ -212,15 +215,15 @@ nav a:hover {
    ============== */
 
 .main {
-  padding: 30px 0;
+  padding: 52px 0;
 }
 
 .main aside {
-  padding: 0px 5% 10px;
+  padding: 0 5% 10px;
 }
 
 .footer-container footer {
-  padding: 20px 0;
+  padding: 26px 0;
 }
 
 /* ===============
@@ -264,9 +267,9 @@ nav a:hover {
 
   nav a {
     float: left;
-    width: 27%;
+    width: 18%;
     margin: 0 1.7%;
-    padding: 25px 2%;
+    padding: 25px 2.222222%;
     margin-bottom: 0;
   }
 
@@ -289,6 +292,17 @@ nav a:hover {
   .oldie nav a {
     margin: 0 0.7%;
   }
+
+  .pinned {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -298,9 +312,9 @@ nav a:hover {
    ==================== */
 
   .main aside {
-    -webkit-box-shadow: 0 5px 10px #aaa;
-       -moz-box-shadow: 0 5px 10px #aaa;
-            box-shadow: 0 5px 10px #aaa;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
   }
 
 /* ============
@@ -308,6 +322,7 @@ nav a:hover {
    ============ */
 
   .title {
+  /*  float: left; */
   }
 
   nav {
@@ -327,6 +342,7 @@ nav a:hover {
   .main aside {
     float: right;
     width: 28%;
+    margin-bottom: 26px;
   }
 }
 

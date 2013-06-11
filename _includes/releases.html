@@ -1,0 +1,12 @@
+              <aside>
+                <h2>Releases</h2>
+                {% if site.tags.releases %}
+                <ul>
+                  {% for post in site.tags.releases limit:10 %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% else %}
+                <p><i>No releases yet.</i></p>
+                {% endif %}
+              </aside>

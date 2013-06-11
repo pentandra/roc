@@ -1,0 +1,12 @@
+              <aside>
+                <h2>Recent Posts</h2>
+                {% if site.posts %}
+                <ul>
+                  {% for post in site.posts limit:7 %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% else %}
+                <p><i>No posts yet.</i></p>
+                {% endif %}
+              </aside>

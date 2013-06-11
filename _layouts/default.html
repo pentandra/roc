@@ -1,14 +1,8 @@
 {% include header.html %}
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1><a class="logo ir" href="{{ site.baseurl }}">{{ site.nickname }}</a></h1>
-                <nav>
-                    <ul>
-                        <li><a href="{{ site.baseurl }}guides/">Guides</a></li>
-                        <li><a href="{{ site.baseurl }}api/latest/">Docs</a></li>
-                        <li><a href="#">Community</a></li>
-                    </ul>
-                </nav>
+                <h1 class="title"><a class="logo ir" href="{{ site.baseurl }}">{{ site.nickname }}</a></h1>
+                {% include main_nav.html %}
             </header>
         </div>
 

@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="roc_logo.svg"
-   inkscape:export-filename="/home/chris/devel/pentandra/roc/_design/roc_logo.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/chris/devel/pentandra/roc/img/roc_logo_small.png"
+   inkscape:export-xdpi="57.262669"
+   inkscape:export-ydpi="57.262669">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -51,7 +51,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="4.9309522"
      inkscape:cx="57.096104"
-     inkscape:cy="60.844737"
+     inkscape:cy="59.724773"
      inkscape:document-units="px"
      inkscape:current-layer="g3968"
      showgrid="false"
@@ -87,7 +87,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -162,7 +162,7 @@
          x="0" />
       <path
          transform="matrix(0,0.6944868,-0.6944868,0,560.99072,339.69488)"
-         d="m 57.613189,383.38156 a 4.3271708,4.3271708 0 1 1 -8.654341,0 4.3271708,4.3271708 0 1 1 8.654341,0 z"
+         d="m 57.613189,383.38156 c 0,2.38983 -1.93734,4.32717 -4.327171,4.32717 -2.38983,0 -4.32717,-1.93734 -4.32717,-4.32717 0,-2.38983 1.93734,-4.32717 4.32717,-4.32717 2.389831,0 4.327171,1.93734 4.327171,4.32717 z"
          sodipodi:ry="4.3271708"
          sodipodi:rx="4.3271708"
          sodipodi:cy="383.38156"
