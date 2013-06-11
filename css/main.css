@@ -15,6 +15,15 @@ body {
   line-height: 1.4;
 }
 
+a {
+  color: #cc1376;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dashed #cc1376;
+}
+
 menu,
 ol,
 ul {
@@ -22,12 +31,12 @@ ul {
 }
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #13b9cc;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #13b9cc;
   text-shadow: none;
 }
 
@@ -179,6 +188,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: contain;
 }
 
+.title a:hover {
+  border-bottom: none;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -207,7 +220,8 @@ nav a:visited {
 }
 
 nav a:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: #cc1376;
+  border-bottom: none;
 }
 
 /* ==============
