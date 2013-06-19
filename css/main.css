@@ -171,7 +171,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 26px solid #000;
 }
 
-.main aside {
+.main aside h3 {
+  text-transform: lowercase;
 }
 
 .header-container,
