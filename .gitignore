@@ -3,5 +3,8 @@ _site
 # Vim temporary files
 *.swp
 
+# Scribus temporary files
+*.autosave
+
 .idea*
 target/
