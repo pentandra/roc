@@ -9,15 +9,15 @@ whom we admire. roc is not some grand new thing---we've simply designed it
 based on what we have learned from people smarter than we are.
 
 We are grateful to many people, many of whom we have never actually met in
-person, but whose research we have studied, including Rob Sanderson and Paolo
-Ciccarese, and many others. These researchers seem to have a sympathetic
-approach to ours. Much of this research we have discovered after coming up
-with similar ideas for new ways to publish and disseminate research, but that
-doesn't matter. It's actually a good thing that multiple independent people are
-reaching similar conclusions. This means that this vision of the future of
-research is not just a pipe dream, but will actually happen. These conclusions
-are tending towards a completely new way that research is conducted and
-shared---a universe of research that is collaborative, instinctive, and open.
+person, but whose research we have studied. These researchers seem to have a
+sympathetic approach to ours. Much of this research we have discovered after
+coming up with similar ideas for new ways to publish and disseminate research,
+but that doesn't matter. It's actually a good thing that multiple independent
+people are reaching similar conclusions. This means that this vision of the
+future of research is not just a pipe dream, but will actually happen. These
+conclusions are tending towards a completely new way that research is conducted
+and shared---a universe of research that is collaborative, instinctive, and
+open.
 
 The world of research is changing.
 
