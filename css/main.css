@@ -27,7 +27,8 @@ a:hover {
 menu,
 ol,
 ul {
-    padding: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 ::-moz-selection {
@@ -166,8 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 
-.footer-container,
-.main aside {
+.footer-container {
   border-top: 26px solid #000;
 }
 
@@ -234,7 +234,8 @@ nav a:hover {
 }
 
 .main aside {
-  padding: 0 5% 10px;
+  border-left: 26px solid #000;
+  padding-left: 1em;
 }
 
 .footer-container footer {
@@ -358,6 +359,9 @@ nav a:hover {
     float: right;
     width: 28%;
     margin-bottom: 26px;
+    border-left: none;
+    border-top: 26px solid #000;
+    padding: 0 5% 10px;
   }
 }
 
