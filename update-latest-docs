@@ -1,0 +1,38 @@
+#!/bin/sh
+
+SCALA_VERSION="scala-2.10"
+
+branch_exists() {
+  git show-ref --verify --quiet refs/heads/$1
+}
+
+anything_changed() {
+  git diff-index --quiet HEAD --;
+}
+
+# Build the latest docs
+if $( branch_exists "develop" ); then
+  git checkout develop
+  sbt unidoc || exit
+else
+  echo >&2 "Develop branch does not exist!"
+  exit 1
+fi
+
+git checkout gh-pages || exit 1
+
+if [[ -d "api/latest/" ]]; then
+  cd api/latest/
+else
+  mkdir -p api/latest
+  cd api/latest/
+fi
+
+rm -r *
+cp -a ../../target/$SCALA_VERSION/unidoc/* . || exit 2
+echo "Updated latest docs"
+
+if $( anything_changed ); then
+  git add --all .
+  git commit . --quiet -m "Updated latest docs"
+fi
